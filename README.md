@@ -9,3 +9,9 @@ Steps
   - use mediapipe to **avoid the mis-detect** of the gesture by position and angles of the 21 nodes per hand
 - **Pyautogui** module to **control mouse** according to the detection result.
   - use Pyautogui module to do the behavior such as **mouse click, mouse double-click, mouse move, mouse drag, screen shot**.
+
+server & client
+----
+- execute `tcp client.py` on Windows laptop (client)
+- execute `tcp server.py` on Jetbot (server)
+- Jetbot will keep transfering image to the laptop in the time of connection.
